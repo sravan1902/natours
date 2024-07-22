@@ -16,6 +16,7 @@ const viewRouter = require('./routes/viewRoutes');
 
 // const { whitelist } = require('validator');
 
+// Start express app
 const app = express();
 
 app.set('view engine', 'pug');
